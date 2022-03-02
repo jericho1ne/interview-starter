@@ -1,8 +1,22 @@
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
+const fs = require('fs')
 
 const app = express()
+
+const JSONAPIDeserializer = require('jsonapi-serializer').Deserializer
+
+// const UserSerializer = new JSONAPISerializer('users', {
+//   attributes: ['firstName', 'lastName']
+// })
+
+
+const classData = fs.readFileSync(
+  './classes.json',
+  {encoding:'utf8', flag:'r'}
+)
+
 
 // Utils
 const errorLog = require('./utils/errorLog')
@@ -10,6 +24,7 @@ const cms = require('./utils/cms.js')
 // const auth = require('utils/auth')
 
 const errLog = new errorLog()
+
 
 const domainAccessList = [
   'http://localhost:3000',
@@ -32,6 +47,36 @@ app.use(cors())
 
 app.get('/', (req, res, next) => {
   res.send('Welcome Home');
+})
+
+app.get('/classes', (req, res, next) => {
+  let rawData = JSON.parse(classData) ? JSON.parse(classData) : {}
+
+  let classes = rawData.data
+  let assets = rawData.included
+
+  let jsonDS = new JSONAPIDeserializer()
+
+  jsonDS.deserialize(JSON.parse(classData), function (err, response) {
+    let classesByTeacher = response.reduce((acc, obj) => {
+      const key = obj.teacher.slug
+
+      if (!acc[key]) {
+        acc[key] = {}
+        acc[key]['classes'] = []
+      }
+      // Add object to list for given key's value
+      acc[key]['name'] = `${obj.teacher['first-name']} ${obj.teacher['last-name']}`
+      acc[key]['classes'].push(obj);
+      return acc;
+    }, {});
+  
+    res.json({ 
+      success: true,
+      statusCode: 200,
+      items: classesByTeacher
+    })
+  })
 })
 
 app.get('/videos', (req, res, next) => {
