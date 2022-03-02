@@ -1,0 +1,8 @@
+@import "./styles/mixins";
+
+.mainContainer {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}

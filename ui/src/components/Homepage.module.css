@@ -1,0 +1,24 @@
+.container {
+  height: auto;
+  overflow-y: scroll;
+}
+
+.maincontent {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  box-shadow: .15rem 0.15rem 0.5rem rgb(0 0 0 / 15%);
+}
+
+@media only screen and (min-width: 721px) {
+  .maincontent {
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .maincontent {
+    width: 100%;
+  }
+}

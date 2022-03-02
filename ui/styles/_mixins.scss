@@ -1,0 +1,29 @@
+@mixin btn() {
+  color: white;
+  border: 0;
+  font-size: .75rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 800;
+  padding: .35rem .6rem;
+  background-color: #045694;
+  border-radius: 0.25rem;
+  transition: opacity 0.25s ease-in;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+@mixin hideOnMobile() {
+  @media only screen and (max-width: 720px) {
+    display: none;
+  }
+}
+
+// Assumes that parent element is position: relative
+@mixin absCenter() {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
