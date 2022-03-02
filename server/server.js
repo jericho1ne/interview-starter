@@ -13,38 +13,22 @@ const errLog = new errorLog()
 
 const domainAccessList = [
   'http://localhost:3000',
+  'http://localhost',
 ]
 
 const headers = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, PUT, POST",
-  "Content-Type": "application/json"
+  "Content-Type": "application/json",
+  "Access-Control-Allow-Headers": "X-Requested-With,content-type",
+  "Access-Control-Allow-Credentials": true,
 }
 
 let corsOptionsDelegate = function (req, callback) {
-  let corsOptions
-
-  if (domainAccessList.indexOf(req.header('Origin')) !== -1) {
-    // Enable the requested origin in the CORS response
-    corsOptions = { origin: true } 
-  } else {
-    // Disable CORS for this request
-    corsOptions = { origin: false } 
-  }
+  let corsOptions = { origin: "*" } 
   callback(null, corsOptions)
 }
-
-const externalGetConfig = {
-  method: 'GET',
-  crossdomain: 'true',
-  credentials: 'same-origin',
-  mode: 'no-cors',
-  headers: headers
-}
-
-app.use((req, res, next) => {
-  next();
-});
+app.use(cors()) 
 
 app.get('/', (req, res, next) => {
   res.send('Welcome Home');
@@ -71,12 +55,12 @@ app.get('/videos', (req, res, next) => {
     res.json({ 
       success: true,
       statusCode: 200,
-      data: items,
+      items,
     })
   })
 
 })
 
-app.listen(8080, function () {
-  console.log('Web server listening on port 8080')
+app.listen(8888, function () {
+  console.log('Web server listening on port 8888')
 })
