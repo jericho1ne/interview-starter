@@ -2,9 +2,9 @@ import axios from 'axios'
 
 import { Component } from 'react'
 import Card from '../Card'
+import classData from '../../_data/classes.json';
 
 // import LocalContext from '../../context/LocalContext';
-
 import styles from './ListView.module.scss'
 
 export default class ListView extends Component {
@@ -14,20 +14,23 @@ export default class ListView extends Component {
   }
 
   async componentDidMount() { 
-    const getConfig = {
-      method: 'GET',
-      crossdomain: 'true',
-      credentials: 'same-origin',
-      mode: 'no-cors',
-    }
+    console.log(classData);
 
-    // Get data from CMS
-    axios.get('http://localhost:8888/classes', getConfig)
-      .then(res => {
-        const classesByTeacher = res.data.items;
-        console.log(classesByTeacher)
-        this.setState({ allItems: classesByTeacher })
-      })
+    // const getConfig = {
+    //   method: 'GET',
+    //   crossdomain: 'true',
+    //   credentials: 'same-origin',
+    //   mode: 'no-cors',
+    // }
+
+    // // Get data from CMS
+    // axios.get('http://localhost:8888/classes', getConfig)
+    //   .then(res => {
+    //     const classesByTeacher = res.data.items;
+    //     console.log(classesByTeacher)
+    //     this.setState({ allItems: classesByTeacher })
+    //   })
+    this.setState({ allItems: classData.classes })
   }
 
   render() {

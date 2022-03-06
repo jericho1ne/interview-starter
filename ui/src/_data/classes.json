@@ -1,0 +1,795 @@
+{
+  "classes": [
+    {
+      "name": "Gustavo Padron",
+      "classes": [
+        {
+          "duration": 60,
+          "title": "Stretchy Feel-Good Flow",
+          "description": "Simply stretch it out for one-hour to release tension in your body and mind. This satisfying class includes every stretchy posture your body needs while flowing through Sun Salutations that build with repeated combinations.",
+          "createdAt": "2022-02-15T02:15:00.000Z",
+          "id": "11267",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI2Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI2Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11267"
+          },
+          "level": {
+            "name": "2",
+            "description": "Building on the foundation of proper alignment, poses are linked together with the breath while building strength, stamina and flexibility.  Classes generally have a flow and rhythm to encourage the evolution of one's practice as moving meditation.  They are more vigorous and challenging to help engender mind/body vitality.  Level 2 classes start to introduce more advanced poses to help take your practice to a new level.",
+            "order": 3,
+            "id": "2"
+          },
+          "teacher": {
+            "firstName": "Gustavo",
+            "lastName": "Padron",
+            "slug": "gustavo-padron",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/125-avatar.jpg",
+            "id": "125"
+          },
+          "style": {
+            "name": "Vinyasa Flow",
+            "description": "Vinyasa is a Sanskrit term often employed to describe a broad range of yoga styles. Vinyasa can be decoded from its root words Nyasa denoting \"to place\" and vi denoting \"in a special way.\" It symbolizes a flowing, dynamic form of yoga, where postures are linked together using breath.",
+            "slug": "vinyasa-flow",
+            "id": "14",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 15,
+          "title": "Hatha to Unwind Desk Tension",
+          "description": "Combat negative mind-body effects from sitting at your desk with a Hatha class for tension relief and boosted energy. While seated comfortably in a chair, open and stretch your upper body with a range of feel-good movement like Cat-Cow, Side Bends, and Neck Rolls, then finish with cleansing breathwork. Props Required: a chair.",
+          "createdAt": "2022-02-01T18:15:00.000Z",
+          "id": "11270",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI3MC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI3MC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11270"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Gustavo",
+            "lastName": "Padron",
+            "slug": "gustavo-padron",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/125-avatar.jpg",
+            "id": "125"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nikki Costello",
+      "classes": [
+        {
+          "duration": 30,
+          "title": "Morning Self-Care Vinyasa",
+          "description": "Ease into your day with rhythmic movement and meditation for a gentle approach to your morning routine. Start by slowly waking up with opening side bends, Extended Side Angle Pose, and Standing Forward Bend, then move to the floor for stretches and guided meditation. Props Required: 2 blankets.",
+          "createdAt": "2022-02-15T08:45:00.000Z",
+          "id": "11300",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTMwMC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTMwMC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11300"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Vinyasa Flow",
+            "description": "Vinyasa is a Sanskrit term often employed to describe a broad range of yoga styles. Vinyasa can be decoded from its root words Nyasa denoting \"to place\" and vi denoting \"in a special way.\" It symbolizes a flowing, dynamic form of yoga, where postures are linked together using breath.",
+            "slug": "vinyasa-flow",
+            "id": "14",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Energy Boost",
+          "description": "This Iyengar Yoga class enhances your stamina and strength to leave you feeling totally energized. Flow through Sun Salutations with jumps then an ab-focused series with Wide-Legged Forward Fold, Parsva Dandasana (Upward Extended Feet Pose), and Revolved Abdomen Pose. Props Suggested: 1 strap.",
+          "createdAt": "2022-02-08T21:04:38.000Z",
+          "id": "11599",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU5OS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU5OS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11599"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Restful Sleep",
+          "description": "This Iyengar Yoga class releases stress and soothes your mind to promote restful sleep. Settle into Easy Pose, Seated Head-To-Knee Pose, and Seated Forward Bend, then follow guidance in humming yourself to sleep with Brahmari (Bee Breathing). Props Required: a chair and 2-3 blankets.",
+          "createdAt": "2022-02-08T21:02:51.000Z",
+          "id": "11295",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI5NS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTI5NS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11295"
+          },
+          "level": {
+            "name": "1",
+            "description": "The basics and fundamentals of yoga poses are introduced.  Learn the process of proper alignment in the poses, breathing techniques, the use of props in your practice and build confidence in your yoga postures.  These classes are designed for both students with no experience as well as the seasoned practitioner. We suggest that all students also attend class at a studio to receive hands on guidance from certified teachers.",
+            "order": 1,
+            "id": "1"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Calm Mind",
+          "description": "This Iyengar Yoga class is spent almost entirely on the floor in relaxing postures that encourage chilling out. Feel how your undivided attention can truly calm your mind while in Seated Head-To-Knee Pose, Baddha Konasana, Wide-Angle Seated Forward Bend, Easy Pose, and Savasana. Props Required: 1 bolster, 1 blanket, and a chair.",
+          "createdAt": "2022-02-08T21:02:44.000Z",
+          "id": "11603",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMy1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMy1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11603"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Tension Release",
+          "description": "This Iyengar Yoga class uses twists and folds to release tension, calm your mind, and create space for what's to come. Postures include Revolved Triangle, Revolved Side Angle Pose, Standing Forward Fold, and Seated Forward Fold. Props Required: 2 blocks and 1 blanket.",
+          "createdAt": "2022-02-08T21:02:34.000Z",
+          "id": "11602",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMi1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMi1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11602"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Tap Into Intuition ",
+          "description": "This Iyengar Yoga class encourages you to connect with inner wisdom through grounded, healing movement. Let go of excess energy as you practice lots of Malasana (squat) variations and stretch out your legs on your mat. Finish in a restful Prone Savasana. Props Required: 1 bolster and 1 blanket.",
+          "createdAt": "2022-02-08T21:02:26.000Z",
+          "id": "11601",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11601"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Glo Anytime: Mood Enhancing",
+          "description": "This Iyengar Yoga class builds self-trust and confidence as you practice powerful postures. Create a strong foundation in your legs to have full upper body expression in Warrior I, Half Moon, Warrior II, Locust, and Bridge poses. Props Required: 1 strap.",
+          "createdAt": "2022-02-08T21:02:14.000Z",
+          "id": "11600",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTYwMC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11600"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Nikki",
+            "lastName": "Costello",
+            "slug": "nikki-costello",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/193-avatar.jpg",
+            "id": "193"
+          },
+          "style": {
+            "name": "Iyengar",
+            "description": "Iyengar yoga is based on the teachings of yoga master B.K.S. Iyengar (author of numerous books including the definitive guide, Light on Yoga). The method of study of Iyengar yoga is progressive with an emphasis on precision and form in order to maintain a balance between flexibility, strength, and relaxation. Through intelligent alignment, sequencing of asanas and timing in the poses, the practice of Iyengar yoga can safely lead beginner and advanced students alike to a mindful practice that is absorbed with attention so that the mind and body work together. Oftentimes props are used to allow the practitioner to go deeper in the asana, adapt to an individual's needs, make an otherwise challenging asana attainable, or to provide support. In addition to his many innovations that are utilized throughout the modern world of yoga such as props, B.K.S. Iyengar developed therapeutic and restorative yoga that utilize the practice of asana and pranayama for deep relaxation and healing.",
+            "slug": "iyengar",
+            "id": "44",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khetanya Henderson",
+      "classes": [
+        {
+          "duration": 10,
+          "title": "10-Minute Glute Strength",
+          "description": "An express class that fires up your lower body with essential glute-strengthening exercises. Power through Squats, Lunges, and Table Top work, then stretch it out with Down Dog and Pigeon Pose. Props Required: ankle weights and/or a resistance band.",
+          "createdAt": "2022-02-16T17:15:00.000Z",
+          "id": "11555",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU1NS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU1NS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11555"
+          },
+          "level": {
+            "name": "2",
+            "description": "Building on the foundation of proper alignment, poses are linked together with the breath while building strength, stamina and flexibility.  Classes generally have a flow and rhythm to encourage the evolution of one's practice as moving meditation.  They are more vigorous and challenging to help engender mind/body vitality.  Level 2 classes start to introduce more advanced poses to help take your practice to a new level.",
+            "order": 3,
+            "id": "2"
+          },
+          "teacher": {
+            "firstName": "Khetanya",
+            "lastName": "Henderson",
+            "slug": "khetanya-henderson",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/avatars/128-avatar.jpg",
+            "id": "128"
+          },
+          "style": {
+            "name": "Strength",
+            "description": "Strength classes target your muscles through resistance work—either using your body weight or the assistance of props such as hand weights or resistance bands. Classes may focus on a particular muscle group or several at once and can range from static isometric holds to dynamic functional movement training.",
+            "slug": "strength",
+            "id": "64",
+            "modality": {
+              "name": "Fitness",
+              "id": "5"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ivorie Jenkins",
+      "classes": [
+        {
+          "duration": 30,
+          "title": "Gentle Vinyasa For Mobility",
+          "description": "Build flexibility and strength throughout your entire body while focusing on increasing your range of motion and easing joint pain. A great class for those feeling restricted or limited in movement. Flow through slow-paced Vinyasas then peak in Chair Pose, Wide-Legged Forward Fold, Warrior II, and Extended Side Angle. Props Required: 2 blocks, 1 strap, and a blanket.",
+          "createdAt": "2022-02-12T05:15:00.000Z",
+          "id": "11437",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTQzNy1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTQzNy1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11437"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Ivorie",
+            "lastName": "Jenkins",
+            "slug": "ivorie-jenkins",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/127-avatar.jpg",
+            "id": "127"
+          },
+          "style": {
+            "name": "Vinyasa Flow",
+            "description": "Vinyasa is a Sanskrit term often employed to describe a broad range of yoga styles. Vinyasa can be decoded from its root words Nyasa denoting \"to place\" and vi denoting \"in a special way.\" It symbolizes a flowing, dynamic form of yoga, where postures are linked together using breath.",
+            "slug": "vinyasa-flow",
+            "id": "14",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kim Strother",
+      "classes": [
+        {
+          "duration": 20,
+          "title": "Complete Core Sculpt",
+          "description": "This bodyweight-only strength class will have your abs and obliques on fire with five essential core sculpting exercises. Sweat through a repeated series of Mountain Climbers, Russian Twists, Plank hip dips, V Ups, and Bicycle Crunches.",
+          "createdAt": "2022-02-09T23:45:00.000Z",
+          "id": "11547",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU0Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTU0Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11547"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Kim",
+            "lastName": "Strother",
+            "slug": "kim-strother",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/129-avatar.jpg",
+            "id": "129"
+          },
+          "style": {
+            "name": "Strength",
+            "description": "Strength classes target your muscles through resistance work—either using your body weight or the assistance of props such as hand weights or resistance bands. Classes may focus on a particular muscle group or several at once and can range from static isometric holds to dynamic functional movement training.",
+            "slug": "strength",
+            "id": "64",
+            "modality": {
+              "name": "Fitness",
+              "id": "5"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jason Crandell",
+      "classes": [
+        {
+          "duration": 20,
+          "title": "Full-Body Balance: Shoulders",
+          "description": "Practice a wide range of motion in your upper body to build flexibility in your shoulders. Flow through a sequence with various arm movements in Puppy Pose, High Lunges, Lizard Lunge, and Warrior II to leave your entire body feeling more strong and mobile.",
+          "createdAt": "2022-01-25T21:59:13.000Z",
+          "id": "11360",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM2MC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM2MC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11360"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Jason",
+            "lastName": "Crandell",
+            "slug": "jason-crandell",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/44-avatar.jpg",
+            "id": "44"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 30,
+          "title": "Full-Body Balance Hatha",
+          "description": "Experience every part of your body working together to maximize your power and self-awareness. Move through this strengthening class that includes Half Split, High Lunge, hip-openers, and reclining arm balances, then release into meditation or Savasana.",
+          "createdAt": "2022-01-25T21:59:27.000Z",
+          "id": "11362",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM2Mi1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM2Mi1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11362"
+          },
+          "level": {
+            "name": "2",
+            "description": "Building on the foundation of proper alignment, poses are linked together with the breath while building strength, stamina and flexibility.  Classes generally have a flow and rhythm to encourage the evolution of one's practice as moving meditation.  They are more vigorous and challenging to help engender mind/body vitality.  Level 2 classes start to introduce more advanced poses to help take your practice to a new level.",
+            "order": 3,
+            "id": "2"
+          },
+          "teacher": {
+            "firstName": "Jason",
+            "lastName": "Crandell",
+            "slug": "jason-crandell",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/44-avatar.jpg",
+            "id": "44"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Full-Body Balance: Upper Body",
+          "description": "Create full-body mobility by strengthening your upper back. Turn on engagement in your lats and shoulders to flow through a few Crescent Lunge Salutations with long-held Locust Poses woven throughout, then practice Dancer Pose and Bridge.",
+          "createdAt": "2022-01-25T21:59:01.000Z",
+          "id": "11359",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1OS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1OS1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11359"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Jason",
+            "lastName": "Crandell",
+            "slug": "jason-crandell",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/44-avatar.jpg",
+            "id": "44"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Full-Body Balance: Core",
+          "description": "Target your core with strengthening techniques in asanas to increase full-body stability. Generate heat throughout this entire class with Leg Lifts, Bird Dog, Plank work, and Revolved Side Angle Pose, then finish strong with reclined arm balances.",
+          "createdAt": "2022-01-25T21:58:49.000Z",
+          "id": "11358",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1OC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1OC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11358"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Jason",
+            "lastName": "Crandell",
+            "slug": "jason-crandell",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/44-avatar.jpg",
+            "id": "44"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        },
+        {
+          "duration": 20,
+          "title": "Full-Body Balance: Hip-Flexors & Quads",
+          "description": "Tune into the specific needs of your hip-flexors and quads and how they support your entire body. Practice stretching and strengthening movements while in Boat Pose, One-Legged Down Dog, and lots of variations in Crescent Lunges, then finish with meditation or Savasana.",
+          "createdAt": "2022-01-25T21:58:11.000Z",
+          "id": "11357",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMTM1Ny1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "11357"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Jason",
+            "lastName": "Crandell",
+            "slug": "jason-crandell",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/44-avatar.jpg",
+            "id": "44"
+          },
+          "style": {
+            "name": "Hatha",
+            "description": "Hatha yoga is often slower moving than a Vinyasa yoga practice, but it can be challenging, stimulating, or soft, depending on the circumstances. The integration of breath while holding poses for long periods of time with intention and relaxation comprise this branch of practice that encompasses and integrates many forms.",
+            "slug": "hatha",
+            "id": "39",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alex Artymiak",
+      "classes": [
+        {
+          "duration": 20,
+          "title": "Feel-Good Vinyasa Hatha Fusion",
+          "description": "A mellow flow that allows you to feel at home in your mind and body. Slow your breath and ease your thoughts with gentle stretches, standing side bends, and calming forward folds. Peak postures include Warrior II, Extended Side Angle, Reverse Warrior, and three-part Cobra.",
+          "createdAt": "2022-01-27T04:15:00.000Z",
+          "id": "10938",
+          "video": {
+            "posterImage": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMDkzOC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6NzIwfX19",
+            "posterImageSmall": "https://assets.glo.com/image/eyJidWNrZXQiOiJ5Zy1hc3NldHMtcHJvZHVjdGlvbiIsImtleSI6ImNsYXNzZXMvcG9zdGVycy8xMDkzOC1wb3N0ZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzUwfX19",
+            "id": "10938"
+          },
+          "level": {
+            "name": "1-2",
+            "description": "These more challenging classes continue to build on poses that are the fundamentals of yoga requiring a bit more strength, flexibility, and balance. These classes assume some yoga knowledge and experience. They continue to show modifications and use of props ensuring more difficult postures and sequences are practiced safely and effectively.",
+            "order": 2,
+            "id": "12"
+          },
+          "teacher": {
+            "firstName": "Alex",
+            "lastName": "Artymiak",
+            "slug": "alex-artymiak",
+            "avatarImage": "https://ddjv1g7udgx6x.cloudfront.net/teachers/160-avatar.jpg",
+            "id": "160"
+          },
+          "style": {
+            "name": "Vinyasa Flow",
+            "description": "Vinyasa is a Sanskrit term often employed to describe a broad range of yoga styles. Vinyasa can be decoded from its root words Nyasa denoting \"to place\" and vi denoting \"in a special way.\" It symbolizes a flowing, dynamic form of yoga, where postures are linked together using breath.",
+            "slug": "vinyasa-flow",
+            "id": "14",
+            "modality": {
+              "name": "Yoga",
+              "id": "1"
+            }
+          },
+          "links": {
+            "self": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "first": "https://api.yogaglo.com/api/v4/classes?page=1&limit=18",
+            "last": "https://api.yogaglo.com/api/v4/classes?page=39&limit=18",
+            "next": "https://api.yogaglo.com/api/v4/classes?page=2&limit=18",
+            "prev": null
+          }
+        }
+      ]
+    }
+  ]
+}
