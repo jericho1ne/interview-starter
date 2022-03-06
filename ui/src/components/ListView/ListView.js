@@ -14,8 +14,6 @@ export default class ListView extends Component {
   }
 
   async componentDidMount() { 
-    console.log(classData);
-
     // const getConfig = {
     //   method: 'GET',
     //   crossdomain: 'true',

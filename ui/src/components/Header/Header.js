@@ -5,17 +5,13 @@ import styles from './Header.module.scss'
 
 export default function Header({ title }) {
   const { scrollY } = useViewportScroll()
-
   const [hidden, setHidden] = React.useState(false);
-
 
   function update() {
     if (scrollY?.current < scrollY?.prev) {
       setHidden(false)
-      console.log("visible")
     } else if (scrollY?.current > 100 && scrollY?.current > scrollY?.prev) {
       setHidden(true)
-      console.log("hidden")
     }
   }
 
@@ -45,10 +41,10 @@ export default function Header({ title }) {
     }
   }
 
-  // Fire events whenever the scrollY position changes
-  React.useEffect(() => {
-    return scrollY.onChange(() => console.log(scrollY));
-  })
+  // Debug: fire events whenever the scrollY position changes
+  // React.useEffect(() => {
+  //   return scrollY.onChange(() => console.log(scrollY));
+  // })
 
   return (
     <motion.nav className={styles.header}
