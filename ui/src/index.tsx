@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
+//  Fonts
+import './fonts/Graphik-Regular-Web.woff2'; 
+import './fonts/Graphik-Medium-Web.woff2'; 
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

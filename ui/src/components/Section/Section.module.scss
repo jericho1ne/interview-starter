@@ -1,0 +1,10 @@
+@import "./styles/mixins";
+
+.teacherSection {
+	display: block;
+	position: relative;
+	z-index: 0;
+	max-width: 325px;
+  border: 1px solid red;
+  margin: 0 .5rem .5rem 0;
+}

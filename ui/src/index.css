@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Graphik Web Regular";
+  src: local("Graphik Web Regular"),
+         url("./fonts/Graphik-Regular-Web.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Graphik Web Medium";
+  src: local("Graphik Web Medium"),
+         url("./fonts/Graphik-Medium-Web.woff2") format("woff2");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,7 +22,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 
 #root {
   background-color: #333;

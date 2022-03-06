@@ -1,13 +1,50 @@
-@import "./styles/mixins";
-@import "./styles/variables";
+@import "./styles/main";
 
-.switcher {
+.listView {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  justify-content: center;
-  padding: 0;
+  padding: 1rem 2rem;
+  margin: 1.5rem 1rem 1rem;
+  justify-content: flex-start;
+  text-align: left;
   height: 100%;
+
+  @media screen and (max-width:480px) {
+    padding: .5rem;
+    margin: 1.5rem .5rem .5rem;
+
+  }
+
+
+  &__section {
+    display: grid;
+    grid-gap: 16px;
+
+    @media screen and (min-width: 1201px) {
+      grid-template-columns: repeat(4, 1fr) [grid-end];
+    }
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr) [grid-end];
+    }
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr) [grid-end];
+    }
+    @media screen and (max-width:480px) {
+      grid-template-columns: repeat(1, 1fr) [grid-end];
+    }
+  }
+
+  // Used solely for debugging
+  pre {
+    overflow-wrap: break-word;
+    font-size: 11px;
+    line-height: 14px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;  
+  }
 
   button {
     @include btn();
@@ -16,32 +53,4 @@
     margin-left: 0.35rem;
   }
 
-  &__nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-width: $documentMinWidth;
-    justify-content: center;
-    margin: auto;
-    top: 50px;
-    @include absCenter();
-    z-index: 100;
-  }
-
-  &__graph {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #bbb;
-    border-radius: 10px;
-    overflow: hidden;
-  }
 }

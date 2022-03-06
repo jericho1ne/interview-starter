@@ -27,3 +27,7 @@
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+@mixin angledGradient($color1, $color2) {
+  background: linear-gradient(70deg, $color1, $color2);
+}

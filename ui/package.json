@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "framer-motion": "^6.2.8",
     "sass": "^1.49.8"
   }
 }

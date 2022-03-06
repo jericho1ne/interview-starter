@@ -1,9 +1,30 @@
-.pageTitle {
-  position: relative;
-  font-size: 1.25rem;
-  padding: 1rem 0 .5rem;
-  margin: auto;
-  color: #777;
-  text-align: center;
-  z-index: 11;
+@import "./styles/main";
+
+.header {
+  @include angledGradient(#efefef, #fff);
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  padding: 1rem;
+  left: 0;
+
+  &__title {
+    position: relative;
+    font-size: 1.25rem;
+    padding: 1rem 0 .5rem;
+    margin: auto;
+    color: #777;
+    text-align: center;
+    z-index: 11;
+  }
+
+  &__logo {
+    height: 2.5rem;
+    width: auto;
+    margin: auto; 
+  }
 }
