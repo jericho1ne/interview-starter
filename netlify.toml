@@ -1,4 +1,7 @@
 [build]
   base    = "ui/"
-  publish = "ui/dist/"
+  publish = "dist/"
   command = "npm run build"
+
+[functions]
+  directory = "server/"
