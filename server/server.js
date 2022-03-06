@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const camelcaseKeys = require('camelcase-keys')
 const axios = require('axios')
 const fs = require('fs')
 
@@ -51,30 +52,48 @@ app.get('/', (req, res, next) => {
 
 app.get('/classes', (req, res, next) => {
   let rawData = JSON.parse(classData) ? JSON.parse(classData) : {}
-
-  let classes = rawData.data
-  let assets = rawData.included
-
   let jsonDS = new JSONAPIDeserializer()
 
   jsonDS.deserialize(JSON.parse(classData), function (err, response) {
-    let classesByTeacher = response.reduce((acc, obj) => {
-      const key = obj.teacher.slug
+    
+    // console.log(response)
 
-      if (!acc[key]) {
-        acc[key] = {}
-        acc[key]['classes'] = []
+    // Deserialized data is a flat list of classes
+    const classesByTeacher = response.reduce((classes, obj, i) => {
+      const key = obj.teacher.slug
+      
+      if (!classes[key]) {
+        classes[key] = {
+          'classes': [],
+          'name': ''
+        }
       }
+     
       // Add object to list for given key's value
-      acc[key]['name'] = `${obj.teacher['first-name']} ${obj.teacher['last-name']}`
-      acc[key]['classes'].push(obj);
-      return acc;
-    }, {});
+      classes[key].name = `${obj.teacher['first-name']} ${obj.teacher['last-name']}`
+      classes[key].classes.push(obj);
+
+      return classes
+    }, {})
+
+
+    // Clean up data structure, 
+    const simplifiedClasses = Object.keys(classesByTeacher).map((key, index) => {
+      return {
+        name: classesByTeacher[key]['name'], 
+        classes: camelcaseKeys(
+          classesByTeacher[key].classes,
+          {
+            "deep": true
+          }
+        )
+      }
+    })
   
     res.json({ 
       success: true,
       statusCode: 200,
-      items: classesByTeacher
+      items: simplifiedClasses
     })
   })
 })

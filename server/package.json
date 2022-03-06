@@ -17,5 +17,8 @@
     "express": "^4.17.3",
     "jsonapi-serializer": "^3.6.7",
     "node-cache": "^5.1.2"
+  },
+  "dependencies": {
+    "camelcase-keys": "^7.0.2"
   }
 }
